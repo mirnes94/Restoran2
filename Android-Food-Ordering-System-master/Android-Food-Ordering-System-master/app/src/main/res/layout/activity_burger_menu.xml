@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".BurgerMenu"
+    android:background="@drawable/foodbg1_1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="top|center"
+        android:text="Burger Items"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="10dp"
+        android:padding="15dp"
+        tools:ignore="UnknownId">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerMali"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Mali Burger - Teletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerMali"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="3 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerMaliKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerMali"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgermali_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerMali"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerMali"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgermali_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerSrednji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Srednji Burger - Teletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerSrednji"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="5 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerSrednjiKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerSrednji"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgersrednji_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerSrednji"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerSrednji"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgersrednji_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerVeliki"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Burger Veliki - Teletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerVeliki"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="7 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerVelikiKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerVeliki"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgerveliki_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerVeliki"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerVeliki"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgerveliki_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerMaliPiletina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Mali Burger - Piletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerMaliPiletina"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="2 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerMaliPiletinaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerMaliPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgermalipiletina_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerMaliPiletina"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerMaliPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgermalipiletina_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerSrednjiPiletina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Srednji Burger - Piletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerSrednjiPiletina"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="4 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerSrednjiPiletinaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerSrednjiPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgersrednjipiletina_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerSrednjiPiletina"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerSrednjiPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgersrednjipiletina_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strBurgerVelikiPiletina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="Burger Veliki - Piletina"
+                    android:textColor="#fff"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerVelikiPiletina"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="6 "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBurgerVelikiPiletinaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="15sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBurgerVelikiPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgervelikipiletina_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_BurgerVelikiPiletina"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/minusBurgerVelikiPiletina"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="burgervelikipiletina_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/n_burg_tot_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_marginTop="6dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/button8"
+        android:layout_marginTop="5dp"
+        android:background="#ffbc7a"
+
+        android:onClick="main_menu"
+        android:text="Main Menu" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/n_veg_tot_id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="325dp"
+        android:background="#ffbc7a"
+        android:gravity="center|bottom"
+        android:onClick="fin_ord"
+        android:padding="10dp"
+        android:text="Proceed" />
+
+
+
+</RelativeLayout>

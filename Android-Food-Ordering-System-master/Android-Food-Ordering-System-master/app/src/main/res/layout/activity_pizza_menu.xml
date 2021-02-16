@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.lakj.comspace.simpletextclient.PizzaMenu"
+    android:background="@drawable/foodbg1_1"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-black"
+        android:gravity="top|center"
+        android:text="Pizza Items"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="430dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="10dp"
+        android:padding="15dp"
+        tools:ignore="UnknownId">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+
+                <TextView
+                    android:id="@+id/strMargarita"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/margarita"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaMargarita"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="4 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaMargaritaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusMargarita"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="margarita_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_margarita"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusMargarita"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="margarita_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strCapricciosa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/capricciosa"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaCapricciosa"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="5 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaCapricciosaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+
+                    <Button
+                        android:id="@+id/plusCapricciosa"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="capricciosa_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_capricciosa"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusCapricciosa"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="capricciosa_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strFunghi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/funghi"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaFunghi"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="5 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaFunghiKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusFunghi"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="funghi_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_funghi"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusFunghi"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="funghi_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strBianca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/bianca"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaBianca"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="6 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaBiancaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusBianca"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="bianca_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_bianca"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusBianca"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="bianca_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strPicante"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/picante"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaPicante"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="5 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaPicanteKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusPicante"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="picante_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_picante"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusPicante"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="picante_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strAltonno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/al_tonno"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaAltonno"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="6 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaAltonnoKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal"
+
+                    >
+
+                    <Button
+                        android:id="@+id/plusAltonno"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="altonno_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_altonno"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusAltonno"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="altonno_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strCalzone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/calzone"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaCalzone"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="5 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaCalzoneKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="right"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusCalzone"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="calzone_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:id="@+id/tv_calzone"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusCalzone"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="calzone_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strVegetariana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/vegetariana"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaVegetariana"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="4 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaVegetarianaKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusVegetariana"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="vegetariana_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+
+                        android:id="@+id/tv_vegetariana"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusVegetariana"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="vegetariana_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp">
+
+                <TextView
+                    android:id="@+id/strQuattroformmaggi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:padding="10dp"
+                    android:text="@string/quattro_formaggi"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/cijenaQuattroformmaggi"
+                    android:layout_width="32dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="296dp"
+                    android:gravity="center"
+                    android:text="6 "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cijenaQuattroformmaggiKM"
+                    android:layout_width="46dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginStart="122dp"
+                    android:layout_marginLeft="122dp"
+                    android:layout_marginEnd="296dp"
+                    android:layout_marginRight="290dp"
+                    android:gravity="center"
+                    android:text="KM "
+                    android:textColor="#ffff"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/plusQuattroformaggi"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="quanttroformaggi_inc"
+                        android:text="+"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_quanttroformaggi"
+                        android:layout_width="34dp"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:paddingBottom="10dp"
+                        android:text="__"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/minusQuattroformaggi"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:background="#ffbc7a"
+                        android:onClick="quanttroformaggi_dec"
+                        android:text="-"
+                        android:textColor="#fff"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/n_veg_tot_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scrollView"
+        android:layout_alignRight="@+id/scrollView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:text="Main Menu"
+        android:background="#ffbc7a"
+        android:onClick="main_menu"
+        android:id="@+id/button2"
+        android:layout_marginTop="5dp"
+
+        android:layout_below="@+id/button8"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Proceed"
+        android:gravity="center|bottom"
+        android:padding="10dp"
+        android:background="#ffbc7a"
+        android:onClick="fin_ord"
+        android:id="@+id/button8"
+        android:layout_alignBottom="@+id/n_veg_tot_id"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="120dp" />
+
+
+
+</RelativeLayout>

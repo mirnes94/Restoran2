@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple Text Client</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_virtual_waitress">VirtualWaitress</string>
+    <string name="title_activity_finalize_order">finalize_order</string>
+    <string name="title_activity_thankyou">thankyou</string>
+    <string name="buttonNarudzba">Narudzba</string>
+    <string name="pizza">PIZZA</string>
+    <string name="pizza1">Pizza1</string>
+    <string name="margarita">Margarita</string>
+    <string name="capricciosa">Capricciosa</string>
+    <string name="funghi">Funghi</string>
+    <string name="vegetariana">Vegetariana </string>
+    <string name="hawaii">Hawaii</string>
+    <string name="bianca">Bianca</string>
+    <string name="picante">Picante</string>
+    <string name="al_tonno">Al tonno</string>
+    <string name="calzone">Calzone</string>
+    <string name="quattro_formaggi">Quattro formaggi </string>
+    <string name="da">Da</string>
+    <string name="ne">Ne</string>
+    <string name="pocetnavrijednost">0</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="nastavinarudzbu">Nastavi narudzbu</string>
+    <string name="ispisracuna">Ispis racuna</string>
+    <string name="naziv_proizvoda">Naziv proizvoda</string>
+    <string name="kolicina">Kolicina</string>
+    <string name="cijena">Cijena</string>
+    <string name="ukupno">Ukupno</string>
+    <string name="naziv_proizvoda1">Naziv proizvoda</string>
+    <string name="kolicina1">Kolicina</string>
+    <string name="cijena1">Cijena</string>
+    <string name="ukupno1">Ukupno</string>
+    <string name="first_name">First Name</string>
+    <string name="lista_korisnika">Lista korisnika</string>
+    <string name="lista_narudzbi">Lista narudzbi</string>
+    <string name="send_order">send order</string>
+    <string name="o_nama">O nama</string>
+
+</resources>

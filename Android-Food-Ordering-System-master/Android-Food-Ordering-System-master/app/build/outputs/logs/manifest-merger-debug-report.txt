@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\61d8521be36d330242445687cdf06163\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\da05522de4f06fbca9fa462de4e6c2cb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\bfbd0b4e3d397c3f8789ddae469c4057\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f748bd86461f0db420b2ddf8e53ddfff\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a3c2619bc34dfaebf1ea08ce97b7125\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8fa61bffe9b17016bed4c2632f2cf365\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3a2d3b384bccd499378ca8364c1c3057\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\85ac1ca8f6c01c923184ebc181627a5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7f34ace3c22067c362531d6bad5c096f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3c4e2d54c730c0e53fc28840d43e4112\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\24135a8eed3a60596498ffd5ec5e94af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\98d687753d5168f0c9129ad0b6d30118\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0aa1357d2bd3e1c09b191268d9a53370\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c9085f495d26efba4d258654dabcf447\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c39ad94f768a155722a6f3f3b346850\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7d32cde8a35a6c8102280b66cffe96b3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5b8d7765ea3b25a0e96ef0f93c7c8776\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5275a4803b39a483a0dc48fac402dff5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\5257e07feaf59161c112a59ac20f2026\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f2971c1c8c02a3d3684baa68d99205c2\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99975e2b52b125ec21240d16db12e2d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6b563152648b19555aa16f19c4b63e72\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\54f450c446220cb1627bf05d50eeb8fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e1286e53b8a6930c411907d278e357a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\70f7fbeeaad6eeadb7cdeac7c4b6cabd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\38a982c57a480e57c23b5ac85cf8b7a3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\78296b8943a6f930c98f2b2abb7fb6db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2e188787b4e361b0d340d461ef793322\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e8b1bb550ee6e3064f4a899254ab2932\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4898c6a7be93a11264baff075c569350\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\80e4eefd738bfc9608bd00ed08325018\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:1-42:12
+	package
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:3:5-49
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:9:5-75
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:9:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:10:22-77
+application
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:12:5-40:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\61d8521be36d330242445687cdf06163\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\61d8521be36d330242445687cdf06163\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\da05522de4f06fbca9fa462de4e6c2cb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\da05522de4f06fbca9fa462de4e6c2cb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f748bd86461f0db420b2ddf8e53ddfff\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f748bd86461f0db420b2ddf8e53ddfff\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f2971c1c8c02a3d3684baa68d99205c2\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f2971c1c8c02a3d3684baa68d99205c2\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:15:9-41
+	android:icon
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:16:9-56
+activity#com.lakj.comspace.simpletextclient.Menu
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:17:9-42
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:17:19-39
+activity#com.lakj.comspace.simpletextclient.CheckOrder
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:18:9-48
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:18:19-45
+activity#com.lakj.comspace.simpletextclient.BurgerMenu
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:19:9-48
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:19:19-45
+activity#com.lakj.comspace.simpletextclient.PizzaMenu
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:20:9-47
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:20:19-44
+activity#com.lakj.comspace.simpletextclient.SlimpleTextClientActivity
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:21:9-23:48
+	android:label
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:23:13-45
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:22:13-54
+activity#com.lakj.comspace.simpletextclient.FoodLab
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:25:13-36
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:30:27-74
+activity#com.lakj.comspace.simpletextclient.Order_Type
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:33:9-48
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:33:19-45
+activity#com.lakj.comspace.simpletextclient.finalize_order
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:34:9-36:69
+	android:label
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:36:13-66
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:35:13-43
+activity#com.lakj.comspace.simpletextclient.thankyou
+ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:37:9-39:63
+	android:label
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:39:13-60
+	android:name
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml:38:13-37
+uses-sdk
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\61d8521be36d330242445687cdf06163\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\61d8521be36d330242445687cdf06163\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\da05522de4f06fbca9fa462de4e6c2cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\da05522de4f06fbca9fa462de4e6c2cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\bfbd0b4e3d397c3f8789ddae469c4057\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\bfbd0b4e3d397c3f8789ddae469c4057\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f748bd86461f0db420b2ddf8e53ddfff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\f748bd86461f0db420b2ddf8e53ddfff\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a3c2619bc34dfaebf1ea08ce97b7125\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\9a3c2619bc34dfaebf1ea08ce97b7125\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8fa61bffe9b17016bed4c2632f2cf365\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8fa61bffe9b17016bed4c2632f2cf365\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3a2d3b384bccd499378ca8364c1c3057\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\3a2d3b384bccd499378ca8364c1c3057\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\85ac1ca8f6c01c923184ebc181627a5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\85ac1ca8f6c01c923184ebc181627a5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7f34ace3c22067c362531d6bad5c096f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\7f34ace3c22067c362531d6bad5c096f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3c4e2d54c730c0e53fc28840d43e4112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\3c4e2d54c730c0e53fc28840d43e4112\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\24135a8eed3a60596498ffd5ec5e94af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\24135a8eed3a60596498ffd5ec5e94af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\98d687753d5168f0c9129ad0b6d30118\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\98d687753d5168f0c9129ad0b6d30118\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0aa1357d2bd3e1c09b191268d9a53370\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0aa1357d2bd3e1c09b191268d9a53370\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c9085f495d26efba4d258654dabcf447\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\c9085f495d26efba4d258654dabcf447\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c39ad94f768a155722a6f3f3b346850\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\9c39ad94f768a155722a6f3f3b346850\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7d32cde8a35a6c8102280b66cffe96b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\7d32cde8a35a6c8102280b66cffe96b3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5b8d7765ea3b25a0e96ef0f93c7c8776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\5b8d7765ea3b25a0e96ef0f93c7c8776\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5275a4803b39a483a0dc48fac402dff5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\5275a4803b39a483a0dc48fac402dff5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\5257e07feaf59161c112a59ac20f2026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\5257e07feaf59161c112a59ac20f2026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\5896d4362dd6c6c2ce0c878ff4169946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f2971c1c8c02a3d3684baa68d99205c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\f2971c1c8c02a3d3684baa68d99205c2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99975e2b52b125ec21240d16db12e2d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\99975e2b52b125ec21240d16db12e2d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6b563152648b19555aa16f19c4b63e72\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\6b563152648b19555aa16f19c4b63e72\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\54f450c446220cb1627bf05d50eeb8fc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\54f450c446220cb1627bf05d50eeb8fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e1286e53b8a6930c411907d278e357a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\e1286e53b8a6930c411907d278e357a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\70f7fbeeaad6eeadb7cdeac7c4b6cabd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\70f7fbeeaad6eeadb7cdeac7c4b6cabd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\38a982c57a480e57c23b5ac85cf8b7a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\38a982c57a480e57c23b5ac85cf8b7a3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\78296b8943a6f930c98f2b2abb7fb6db\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\78296b8943a6f930c98f2b2abb7fb6db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2e188787b4e361b0d340d461ef793322\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\2e188787b4e361b0d340d461ef793322\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e8b1bb550ee6e3064f4a899254ab2932\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e8b1bb550ee6e3064f4a899254ab2932\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4898c6a7be93a11264baff075c569350\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\4898c6a7be93a11264baff075c569350\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\80e4eefd738bfc9608bd00ed08325018\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\win10\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\80e4eefd738bfc9608bd00ed08325018\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\win10\Desktop\Aplikacija-Restoran-Baza\Android-Food-Ordering-System-master\app\src\main\AndroidManifest.xml
